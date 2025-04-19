@@ -1,12 +1,12 @@
 {
-    "version": "1.4.173",
+    "version": "1.4.174",
     "description": "Fabric is an open-source framework designed to help people seamlessly integrate AI into their daily tasks, enhancing human capabilities through modular AI patterns.",
     "homepage": "https://github.com/danielmiessler/fabric",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/danielmiessler/fabric/releases/download/v1.4.173/fabric-windows-amd64.exe",
-            "hash": "f04b50db3fa2f9675dd35ab71590cb4a46a744262dd26f42935bd0f3172bfbd1"
+            "url": "https://github.com/danielmiessler/fabric/releases/download/v1.4.174/fabric-windows-amd64.exe",
+            "hash": "1606abf70b6e66ebf2e68d204b12be0d854f679b5184f4b0cf2db97453b02c6c"
         }
     },
     "bin": [
