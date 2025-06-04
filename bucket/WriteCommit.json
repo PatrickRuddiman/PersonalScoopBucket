@@ -11,11 +11,11 @@
     },
     "bin": [
         [
-            "win-x64/WriteCommit.exe",
+            "WriteCommit.exe",
             "write-commit"
         ],
         [
-            "win-x64/WriteCommit.exe",
+            "WriteCommit.exe",
             "WriteCommit"
         ]
     ],
