@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/PatrickRuddiman/Toolkit/releases/download/v0.1.6/write-commit-win-x64.zip",
+            "url": "https://github.com/PatrickRuddiman/Toolkit/releases/download/v0.1.6/writecommit-windows-x64-v0.1.6.zip",
             "hash": ""
         }
     },
@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/PatrickRuddiman/Toolkit/releases/download/v$version/write-commit-win-x64.zip"
+                "url": "https://github.com/PatrickRuddiman/Toolkit/releases/download/v$version/writecommit-windows-x64-v$version.zip"
             }
         }
     }
