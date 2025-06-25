@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/PatrickRuddiman/WriteCommit/releases/download/v0.1.0/writecommit-windows-x64-v0.1.0.zip",
-            "hash": ""
+            "hash": "59114dc247b20e0add659cea7daadd472c681da42a8757e44675b1f7a082a551"
         }
     },
     "bin": [
