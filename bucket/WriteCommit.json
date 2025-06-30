@@ -1,12 +1,12 @@
 {
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "WriteCommit is a .NET console application that helps generate meaningful commit messages using AI.",
     "homepage": "https://github.com/PatrickRuddiman/WriteCommit",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/PatrickRuddiman/WriteCommit/releases/download/v0.1.4/writecommit-windows-x64-v0.1.4.zip",
-            "hash": "e81406ce3a9e05d4fdf53d88972a53b5561d6dc76b2a6a43cdd17cb119bb6be8"
+            "url": "https://github.com/PatrickRuddiman/WriteCommit/releases/download/v0.1.5/writecommit-windows-x64-v0.1.5.zip",
+            "hash": "864578b114e21ab1d1db49a5209bb0b466b6a7ffcc6a9ccc604cf1b9da6ca7bd"
         }
     },
     "bin": [
