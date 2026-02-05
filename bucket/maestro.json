@@ -1,0 +1,26 @@
+{
+    "version": "0.14.5",
+    "description": "Maestro is an agent orchestration command center for focused work.",
+    "homepage": "https://github.com/pedramamini/Maestro",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/pedramamini/Maestro/releases/download/v0.14.5/Maestro-Portable-0.14.5.exe",
+            "hash": "c05643b4c8c296b33ca8fba906015255fdc93588d281b014deb87e78f77a2639"
+        }
+    },
+    "pre_install": "Rename-Item \"$dir\\Maestro-Portable-$version.exe\" \"maestro.exe\"",
+    "bin": "maestro.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/pedramamini/Maestro/releases/download/v$version/Maestro-Portable-$version.exe"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/pedramamini/Maestro/releases/expanded_assets/v$version",
+            "regex": "(?s)Maestro-Portable-$version\\.exe.*?sha256:(?<hash>[A-Fa-f0-9]{64})"
+        }
+    }
+}
