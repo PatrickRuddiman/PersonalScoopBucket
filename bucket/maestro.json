@@ -13,7 +13,7 @@
     "bin": "maestro.exe",
     "checkver": {
         "url": "https://github.com/pedramamini/Maestro/releases",
-        "regex": "v(?![\\d.]+-[Rr][Cc])([\\d.]+)"
+        "regex": "v(?!\\d+(?:\\.\\d+)*-[Rr][Cc])(\\d+(?:\\.\\d+)*)"
     },
     "autoupdate": {
         "architecture": {
