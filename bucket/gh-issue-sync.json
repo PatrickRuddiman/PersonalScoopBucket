@@ -21,6 +21,10 @@
             "64bit": {
                 "url": "https://github.com/mitsuhiko/gh-issue-sync/releases/download/v$version/gh-issue-sync-windows-amd64.exe"
             }
+        },
+        "hash": {
+            "url": "https://github.com/mitsuhiko/gh-issue-sync/releases/expanded_assets/v$version",
+            "regex": "gh-issue-sync-windows-amd64\\.exe.*?sha256:(?<hash>[A-Fa-f0-9]{64})"
         }
     }
 }
