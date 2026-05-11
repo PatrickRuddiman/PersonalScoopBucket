@@ -1,16 +1,16 @@
 {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Parameterized command shortcuts for Windows.",
     "homepage": "https://github.com/PatrickRuddiman/shrt",
     "license": "MIT OR Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/PatrickRuddiman/shrt/releases/download/v0.1.1/shrt-v0.1.1-x86_64-pc-windows-msvc.exe#/shrt.exe",
-            "hash": "07d575069458379800e7ce9698fb6cc6ddc3cae43afe325973bf2ff12e4cff99"
+            "url": "https://github.com/PatrickRuddiman/shrt/releases/download/v0.1.2/shrt-v0.1.2-x86_64-pc-windows-msvc.exe#/shrt.exe",
+            "hash": "4b82eaf3247cd996e7b8441125f2bef7e33f8d1a92392a49c440214fef1587e3"
         },
         "arm64": {
-            "url": "https://github.com/PatrickRuddiman/shrt/releases/download/v0.1.1/shrt-v0.1.1-aarch64-pc-windows-msvc.exe#/shrt.exe",
-            "hash": "4b3fe66121135d65c280eb571f94f584e33025fbe762c55d733a062150a81463"
+            "url": "https://github.com/PatrickRuddiman/shrt/releases/download/v0.1.2/shrt-v0.1.2-aarch64-pc-windows-msvc.exe#/shrt.exe",
+            "hash": "ee058eae01b31a3874e1b07d1cb9f61d62811c68dfbb34a111d3c6223f014c6f"
         }
     },
     "bin": "shrt.exe",
